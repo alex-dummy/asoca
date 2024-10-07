@@ -1,0 +1,80 @@
+/* Contact Section */
+.container-contact-adresa, .container-contact-telefon {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.subtitlu-contact {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    color: #be0709;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.adresa-paragraf {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.lista-contacte {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-contacte li {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.contact-functie {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.contact-nume {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.contact-telefon, .contact-mail {
+    display: block;
+    font-size: 16px;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-logo {
+        margin-bottom: 10px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .nav-list li {
+        margin-bottom: 10px;
+    }
+
+    .container-contact-adresa, .container-contact-telefon {
+        padding: 15px;
+    }
+
+    .subtitlu-contact {
+        font-size: 20px;
+    }
+}

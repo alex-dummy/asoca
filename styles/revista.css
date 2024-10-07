@@ -1,0 +1,63 @@
+
+/* Revista Section */
+.container-revista {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.revista-subtitlu {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    color: #be0709;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.container-revista-descarcare {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.lista-revista {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-revista li {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.lista-revista p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+/* Buton descărcare */
+.btn-descarcare {
+    background-color: #be0709;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+.btn-descarcare:hover {
+    background-color: #900506;
+}
+
+/* Stil pentru link */
+.revista-descarcare-link {
+    text-decoration: none;
+}
